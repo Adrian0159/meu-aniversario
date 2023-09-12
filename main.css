@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/aniverssario.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Dancing Script", cursive;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  max-width: 800px;
+  padding: 0 60px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#contador {
+  font-size: 40px;
+  font-weight: bold;
+  color: yellow;
+  font-family: sans-serif;
+}
